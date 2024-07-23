@@ -1,5 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1099ad;
+}
+
 h1 {
-  color: blue;
   font-size: 26px;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -34,3 +49,29 @@ li {
   font-family: sans-serif;
 }
 
+/* footer p {
+  font-size: 16px;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 14px;
+}
+#copyright {
+  font-size: 16px;
+  font-style: italic;
+  color: blue;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
