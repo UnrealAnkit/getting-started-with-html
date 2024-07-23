@@ -79,4 +79,7 @@ li {
 header {
   background-color:#f7f7f7;
 }
-
+aside {
+  background-color: #f7f7f7;
+  border: 5px solid #1098ad;
+}
