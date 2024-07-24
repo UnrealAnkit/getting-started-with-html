@@ -16,7 +16,7 @@
     <h5>the basic language of webdev</h5>
     <h6>the basic language of webdev</h6>
     -->
-<header>
+<header class="main-header">
     <h1>The Code Magazine</h1>
     <div>
     <a href="#">challenges</a>
@@ -30,7 +30,7 @@
     <h2>The Basic Language of the Web: HTML</h2>
     <img src="02-HTML-Fundamentals/img/image.png" width="100" height="100"/> 
     
-    <p>posted by <strong>ANKIT</strong></p>
+    <p id="author">posted by <strong>ANKIT</strong></p>
     
 
 
@@ -59,7 +59,7 @@ All modern websites and web applications are built using three fundamental
     </p>
     <p>In HTML, each element is made up of 3 parts:</p>
     <ol>
-      <li>The opening tag</li>
+      <li class="first-li">The opening tag</li>
       <li>The closing tag</li>
       <li>The actual element</li>
     </ol>
@@ -76,7 +76,7 @@ target="_blank"
     </p>
 
     <ul>
-      <li>To be able to use the fundamental web dev language</li>
+      <li class="first-li">To be able to use the fundamental web dev language</li>
       <li>
         To hand-craft beautiful websites instead of relying on tools like
         Worpress or Wix
@@ -89,17 +89,17 @@ target="_blank"
   </article>
       <aside>
   <h4>related post</h4>
-  <ul>
+  <ul class="related">
     <li>
   <img src="02-HTML-Fundamentals/img/related-1.jpg" width="50" height="50">
   <a href="#">you can learn more at</a>
 </li>
-  <p>by ankit kumar</p>
+  <p class="related-author">by ankit kumar</p>
   
 <li>
 <img src="02-HTML-Fundamentals/img/related-2.jpg" width="50" height="50">
 <a href="#">unknown power of css</a>
-<P>by ankit kumar</P>
+<P class="related-author">by ankit kumar</P>
 
 
 
@@ -109,13 +109,14 @@ target="_blank"
 <li>
 <img src="02-HTML-Fundamentals/img/related-3.jpg"  width="50" height="50">
 <a href=#>why javascript is awesome</a>
-<P>by ankit kumar</P>
+<P class="related-author">by ankit kumar</P>
 
 
 </li>
 
 </ul>
-  <footer> copyright &COPY; 2027 by the code
+  <footer>
+    <p id="copyright">copyright &COPY; 2027 by the code  </P>
   </footer>
         </aside>
   </body>
